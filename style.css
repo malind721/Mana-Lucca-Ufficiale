@@ -1284,6 +1284,25 @@ em {
 .whatsapp-icon svg path:last-child{
   fill:none;
 }
+
+@media(max-width:650px){
+  .floating-whatsapp{
+    width:190px;
+    height:58px;
+    right:16px;
+    bottom:76px;
+    border-radius:30px;
+  }
+
+  .floating-whatsapp strong{
+    font-size:13px;
+  }
+
+  .whatsapp-icon{
+    width:32px !important;
+    height:32px !important;
+  }
+}
 /* =========================
    ANIMAZIONI
 ========================= */
